@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تهنئة مباركة</title>
+    <!-- خطوط عربية فاخرة -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- خلفية الصورة ملء الشاشة -->
+    <div class="bg-image-overlay"></div>
+
+    <!-- جزيئات ضوئية ذهبية وفضية هادئة -->
+    <div id="ambient-container"></div>
+
+    <!-- الهدية الفضية والذهبية (تتفتح تلقائياً) -->
+    <div id="gift-overlay" class="gift-overlay">
+        <div class="gift-box">
+            <div class="gift-lid">
+                <div class="ribbon-bow-gold"></div>
+            </div>
+            <div class="gift-body">
+                <div class="ribbon-gold-vertical"></div>
+            </div>
+            <p class="gift-text">هدية خاصة لك...</p>
+        </div>
+    </div>
+
+    <!-- البطاقة المركزية (في المنتصف تماماً فوق خلفية الصورة) -->
+    <main id="card-container" class="card-container">
+        <!-- العنوان الرئيسي -->
+        <h1 class="main-title">ربنا يتم لك على خير ✨</h1>
+        <p class="subtitle">ألف مبروك الزفاف السعيد وأجمل التهاني القلبية</p>
+
+        <!-- صندوق التهاني والأدعية المتتالية في الوسط -->
+        <div class="wishes-box">
+            <div id="dynamic-wish" class="wish-text"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
